@@ -41,7 +41,7 @@
 
 #artistList {
   display: flex;
-  gap: 3em;
+  gap:3em;
   margin: 10px 300px 50px 300px;
 }
 /*
