@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { ArtistInfo1 } from './ArtistInfo'
-import { ArtistInfo2 } from './ArtistInfo'
-import { ArtistInfo3 } from './ArtistInfo'
+import { ArtistInfo1 } from './components/ArtistInfo'
+import { ArtistInfo2 } from './components/ArtistInfo'
+import { ArtistInfo3 } from './components/ArtistInfo'
 
 function App() {
 /*
@@ -39,7 +39,16 @@ function App() {
     setSubmitValue(inputText)
   }
 
-  return (
+  return (/*
+    <div className='App'>
+    <Routes>
+      <Route path="/" element={<NavBar />}>
+        <Route index element={<Clicker />} />
+        <Route path="/getter" element={<Getter />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
+  </div>*/
     <>
     <h1>Check out some of my favourites songs and artists!</h1>
     <ArtistInfo1/>
