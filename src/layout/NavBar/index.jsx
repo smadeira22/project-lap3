@@ -1,19 +1,41 @@
-/*import React from 'react'
-import { NavLink, Outlet } from 'react-router-dom'
+import React from 'react';
+import { NavLink, useLocation, Outlet } from 'react-router-dom';
+import './style.css';
 
-const NavBar = () => {
-  return (
-    <>
-    <header>
-        <nav>
-            <NavLink to="/">Lunay</NavLink>
-            <NavLink to="/getter">Justin Quiles</NavLink>
-        </nav>
-    </header>
+const LocationDisplay = () => {
+  const location = useLocation()
 
-    <Outlet />
-    </>
-  )
+  return <span>{location.pathname}</span>
 }
 
-export default NavBar*/
+const NavBar = () => {
+
+  const activeStyle = {
+    textDecoration: 'underline',
+    color: 'darkblue'
+  }
+
+  return (
+    <>
+      <nav className="navbar">
+        <h2><LocationDisplay /></h2>
+        <ul className="nav-links">
+          <li>
+            <NavLink
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              to="/">
+              Home
+            </NavLink>
+          </li>
+
+          <li><NavLink style={({ isActive }) => (isActive ? activeStyle : undefined)} to="/JustinQuiles">Justin Quiles</NavLink></li>
+          <li><NavLink style={({ isActive }) => (isActive ? activeStyle : undefined)} to="/Feid">Feid</NavLink></li>
+          <li><NavLink style={({ isActive }) => (isActive ? activeStyle : undefined)} to="/Lunay">Lunay</NavLink></li>
+        </ul>
+      </nav>
+      <Outlet />
+    </>
+  );
+}
+
+export default NavBar;

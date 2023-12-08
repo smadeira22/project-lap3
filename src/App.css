@@ -5,17 +5,17 @@
   gap:3em;
 }
 
-#Artist {
+/*#Artist {
   background-color: rgb(243, 229, 229);
   /*background-color:rgb(202, 172, 206) ;*/
-  border-width: 22px;
+  /*border-width: 22px;
   border-color:yellow;
   border-radius: 8px;
   border: 1px solid rgb(31, 31, 21);
   margin: 10px 300px 10px 300px;
   display:flex;
-}
-
+}*/
+/*
 #Artist p {
   margin-left: 100px;
   margin-right: 100px; 
@@ -24,15 +24,11 @@
 .artist {
   margin-bottom: 0;
 }
-.artist img {
-  width: 550px;
-  height: 580px;
-}
 
 .artistText{
- /*margin-top: 70px;
+ margin-top: 70px;
   margin-bottom: 50px;*/
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0px;
@@ -50,7 +46,7 @@
   background-color: rgb(220, 169, 226);
   border-radius: 10px;
  }*/
-
+/*
 #artistList img {
   width: 260px;
   height: 270px;

@@ -1,0 +1,11 @@
+.artist img {
+    width: 450px;
+    height:400px;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    font-family: 'Arial Narrow Bold';
+    color: rgb(35, 35, 131)(0, 0, 255, 0.664);
+}
