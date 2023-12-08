@@ -1,4 +1,16 @@
-#artistList img {
-    width: 450px;
-    height:400px;
+body {
+    margin:0;
+    background-color: rgb(230, 207, 207);
 }
+#artistList img {
+    width: 270px;
+    height:300px;
+    border-radius: 10px;
+}
+/*
+#artistList {
+    display: flex;
+    flex-direction: row;
+    gap:3em;
+    margin: 10px 300px 50px 300px;
+  }*/

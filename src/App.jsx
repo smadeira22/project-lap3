@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { NavBar } from './layout';
+import { Effect } from './components';
 import * as Pages from './pages'
 import './App.css'
 
@@ -8,6 +9,7 @@ const App = () => {
   return (
     <div className="App">
     {/* <NavBar /> */}
+    { /*<Effect /> */}
     <Routes>
       <Route path="/" element={<NavBar />}>
         <Route index element={<Pages.Home />} />
