@@ -1,5 +1,5 @@
 export { default as Effect } from './Effect'
 export { default as Review } from './Review'
-export { default as feidList } from './SongList'
-export { default as LunayList } from './SongList'
-export { default as justinQuilesList } from './SongList'
+export { default as FeidList } from './FeidList'
+export { default as LunayList } from './LunayList'
+export { default as JustinQuilesList } from './JustinQuilesList'

@@ -1,6 +1,13 @@
-.artist img {
-    width: 450px;
-    height:400px;
+body {
+    margin-bottom: 0;
+    background-color: rgb(230, 207, 207);
+}
+
+
+#artist div img {
+    width: 440px;
+    height:470px;
+    border-radius: 3px;
 }
 
 h1 {
@@ -9,3 +16,30 @@ h1 {
     font-family: 'Arial Narrow Bold';
     color: rgb(35, 35, 131)(0, 0, 255, 0.664);
 }
+
+#artist {
+    display:flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+#artist div {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+#artist div button {
+    padding:20px;
+    border-radius: 10px;
+    background-color:  rgb(19, 83, 143);
+    transition-duration: 1s;
+    cursor:pointer;
+    font-size: 35px;
+    color: rgb(242, 206, 243) ;
+}
+
+#artist div button:hover {
+    padding:30px;
+}
+

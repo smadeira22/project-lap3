@@ -1,3 +1,5 @@
+import './styles.css'
+
 export const ArtistInfo1 = () => {
 
     return (

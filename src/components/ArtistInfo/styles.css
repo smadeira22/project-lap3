@@ -1,0 +1,42 @@
+body{
+    margin:0;
+}
+
+#Artist {
+  background-color: rgb(243, 229, 229);
+  /*background-color:rgb(202, 172, 206) ;*/
+  border-width: 22px;
+  border-color:yellow;
+  border-radius: 8px;
+  border: 1px solid rgb(31, 31, 21);
+  margin: 10px 300px 10px 300px;
+  display:flex;
+}
+
+
+#Artist p {
+  margin-left: 100px;
+  margin-right: 100px; 
+}
+
+.artist {
+  margin-bottom: 0;
+}
+
+.artistText{
+ margin-top: 20px;
+  margin-bottom:0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0px;
+}
+
+h2 { 
+     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
+}
+
+.artist img {
+  width: 600px ;
+  height: 600px ;
+}

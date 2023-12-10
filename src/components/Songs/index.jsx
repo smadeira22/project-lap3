@@ -15,7 +15,7 @@ export const FeidSongs = [
 export const LunaySongs = [
   { title: 'Soltera', id: 1, imageUrl: 'https://corazonurbano.com/wp-content/uploads/2019/10/lunay-epico-portada.jpg', releaseDate: "25/10/2019", link: "https://open.spotify.com/intl-pt/track/78uXMDNh2W2jZVrc4qBatZ"},
     { title: 'LE GUSTA QUE LA VEAN', id: 2, imageUrl: 'https://t2.genius.com/unsafe/255x255/https%3A%2F%2Fimages.genius.com%2F007fe81da9e626c905a23149a6cdae76.1000x1000x1.png',  releasedDate: "21/05/2021",link:"https://open.spotify.com/intl-pt/track/3Xaiksu578RaSvmvq893dg"},
-    { title: 'TODO O NADA', id: 3, imageUrl: 'https://t2.genius.com/unsafe/255x255/https%3A%2F%2Fimages.genius.com%2F717e6146b151d1e5497301995bf6e595.1000x1000x1.png', releasedDate: " 21/05/2021", linnk:"https://open.spotify.com/intl-pt/track/59rjsHYxdxeUG6gd43Emzs" },
+    { title: 'TODO O NADA', id: 3, imageUrl: 'https://t2.genius.com/unsafe/255x255/https%3A%2F%2Fimages.genius.com%2F717e6146b151d1e5497301995bf6e595.1000x1000x1.png', releasedDate: " 21/05/2021", link:"https://open.spotify.com/intl-pt/track/59rjsHYxdxeUG6gd43Emzs" },
     { title: 'Si Te Vas Conmigo', id: 4, imageUrl: 'https://images.genius.com/a7029b3364600d98a50c0902b1fd015c.500x500x1.jpg',  date: "11/05/2018", link:"https://open.spotify.com/intl-pt/album/6AAlu0DqcjBVH2bkJZoInM" }  
 ];
 

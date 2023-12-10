@@ -1,10 +1,11 @@
 nav {
     display: flex;
     padding: 12px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: rgb(105, 107, 243);
     color: white;
+    margin-bottom: 2em;
   }
   
   .nav-links {
@@ -14,13 +15,14 @@ nav {
     list-style: none;
     font-size: 19px;
     gap: 3em;
+  
   }
-/*  .nav-links a {
+.nav-links a {
     color: white;
     text-decoration: none;
   }
-  */
-  .nav-links a:hover {
+
+.nav-links a:hover {
     margin-bottom: 20px;
     color: blue;
     text-decoration-thickness: 3px;

@@ -7,18 +7,21 @@ import { MemoryRouter } from 'react-router-dom';
 import * as matchers from '@testing-library/jest-dom/matchers';
 expect.extend(matchers);
 
-import NavBar from '.';
+import App from './App';
 
-describe('NavBar Component',() => {
+describe('App Component',() => {
     render(
         <MemoryRouter>
-            <NavBar />
+            <App />
         </MemoryRouter>
     )
-    it('displays a NavBar with 4 children'), () => {}
-        const nav = screen.getByRole('navigation')
 
-        expect(nav).toBeInTheDocument()
-        expect(nav.childNodes.length).toBe(4)
-}
-)
+    it('only displays one h1', () => {
+        const h1s = screen.queryAllByRole('heading' ,{
+            level: 1
+        })
+
+        expect(h1s.length).not.toBeGreaterThan(1)
+        
+    })
+})

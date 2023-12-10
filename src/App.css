@@ -3,18 +3,27 @@
   text-align: center;
   background-color: rgb(230, 207, 207);
   gap:3em;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-/*#Artist {
-  background-color: rgb(243, 229, 229);
-  /*background-color:rgb(202, 172, 206) ;*/
-  /*border-width: 22px;
-  border-color:yellow;
-  border-radius: 8px;
-  border: 1px solid rgb(31, 31, 21);
-  margin: 10px 300px 10px 300px;
-  display:flex;
-}*/
+h1 {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgb(19, 83, 143)
+}
+
+#artistList img {
+  width: 270px;
+  height:300px;
+  border-radius: 10px;
+}
+
+#artistList {
+  display: flex;
+  flex-direction: row;
+  gap:3em;
+  margin: 20px 700px 50px 700px;
+  margin-bottom: 0;
+}
 /*
 #Artist p {
   margin-left: 100px;
