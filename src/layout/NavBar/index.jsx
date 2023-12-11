@@ -36,8 +36,17 @@ const NavBar = () => {
             </NavLink>
           </li>
 
-          <li><NavLink style={({ isActive }) => (isActive ? activeStyle : undefined)} to="/Feid">Feid</NavLink></li>
-          <li><NavLink style={({ isActive }) => (isActive ? activeStyle : undefined)} to="/Lunay">Lunay</NavLink></li>
+          <li><NavLink style={({ isActive }) => (isActive ? activeStyle : undefined)}
+           to="/Feid">
+          Feid
+          </NavLink>
+          </li>
+
+          <li><NavLink style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            to="/Lunay">
+            Lunay
+            </NavLink>
+          </li>
         </ul>
       </nav>
       <Outlet />
