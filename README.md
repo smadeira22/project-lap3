@@ -1,4 +1,4 @@
-# My davorite songs and artists
+# My Favorite Songs and Artists
 
 # Clone repo
 
